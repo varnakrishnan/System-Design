@@ -25,6 +25,7 @@ if [ `expr $room2 / 40` == 0 ]
 then
 tot_room=`expr $room1 + 1`
 fi
+#room allocation
 i=1
 while [ $i -le $tot_room ]
 do
