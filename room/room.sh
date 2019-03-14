@@ -112,7 +112,7 @@ do
 	((r++))
 	((q++))
 done
-while [ $q -lt $s2 -a $r -lt $s3 ]
+while [ $q -lt $s2 -a $r -lt $s1 ]
 do
 	echo ${rlno1[$p]} ${rlno2[$q]}
 	((p++))
